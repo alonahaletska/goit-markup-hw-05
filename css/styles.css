@@ -605,18 +605,24 @@ img {
   overflow: hidden;
 }
 
+.portfolio-image{
+  display: block;
+}
+
 .box-text{
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0; 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-txt--mode-light);
-}
-
-.portfolio-image{
-  display: block;
-
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%; 
+  width: 100%; 
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-block{ 
@@ -632,12 +638,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-txt--mode-dark);
-  padding: 40px 32px;
-  background-color: #4d5ae5;
-  height: 100%; 
-  width: 100%; 
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .portfolio-text { 
