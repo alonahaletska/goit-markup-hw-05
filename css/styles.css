@@ -288,6 +288,11 @@ img {
 }
 
 /* СЕКЦИЯ РАБОТ */
+.work{
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+
 .work-title {
   margin-bottom: 72px;
 }
