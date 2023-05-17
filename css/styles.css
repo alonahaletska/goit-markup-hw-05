@@ -146,7 +146,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--primary-txt--mode-dark);
   position:relative;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -361,8 +361,6 @@ img {
   gap: 24px;
   list-style: none;
   padding: 0;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .box-item{
@@ -383,7 +381,6 @@ img {
   width: 100%;
   height: 100%;
   text-decoration: none;
-  padding: 12px;
   fill:var(--primary-bg--mode-light);
   background-color: var(--bg-color-icon);
   border-radius: 50%;
@@ -459,7 +456,6 @@ img {
   display: flex; 
   align-items: baseline;
   gap: 70px;
-  /* margin-right: 120px; */
 }
 
 .footer-wrapper{
@@ -496,10 +492,6 @@ img {
 .footer-title {
   margin-bottom: 16px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
   color: var(--primary-txt--mode-light);
 }
 
@@ -520,7 +512,6 @@ img {
   width: 100%;
   height: 100%;
   text-decoration: none;
-  padding: 12px;
   background:var(--bg-color-icon) ;
   border-radius: 50%;
   fill: var(--white-txt-color);
@@ -534,8 +525,6 @@ img {
 }
 
 .footer-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--svg);
 } 
 
@@ -613,8 +602,6 @@ img {
   letter-spacing: 0.02em;
   padding: 40px 32px;
   background-color: #4d5ae5;
-  height: 100%; 
-  width: 100%; 
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var( --main-txt--mode-light);
