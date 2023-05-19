@@ -269,12 +269,6 @@ img {
   border-radius: 4px;
 }
 
-.about-icon{
-  display: block;
-  width: 64px;
-  height: 64px;
-}
-
 .about-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -460,7 +454,6 @@ img {
 .footer-container{
   display: flex; 
   align-items: baseline;
-  gap: 70px;
 }
 
 .footer-wrapper{
@@ -613,9 +606,10 @@ img {
 
 .portfolio-link:hover .box-text,
 .portfolio-link:focus .box-text{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
   transform: translateY(0%);
-  color: var( --main-txt--mode-light);
+  background: #4D5AE5;
+  mix-blend-mode: normal;
 }
 
 .portfolio-block{ 
